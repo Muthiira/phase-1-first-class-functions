@@ -8,6 +8,6 @@ function receivesAFunction(callBack){
    }
    
    function returnsAnAnonymousFunction(){
-	   return function (){
+	   return function anonymous(){
 	   };
    } 
