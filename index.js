@@ -1,13 +1,12 @@
-function receivesAFunction(callBack){
-	callBack();
-   }
-   
-   function returnsANamedFunction(){
-	   return function named(){
-	   }
-   }
-   
-   function returnsAnAnonymousFunction(){
-	   return function anonymous(){
-	   };
-   } 
+function receivesAFunction(callbackFunction) {
+	callbackFunction();
+  }
+  
+  function returnsANamedFunction() {
+	return function namedFunction() {};
+  }
+  
+  function returnsAnAnonymousFunction() {
+	return function () {};
+  }
+  
